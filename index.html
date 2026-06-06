@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amina Ishfaq — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-logo">A.I.</div>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-eyebrow">Frontend Developer · Designer</div>
+
+    <h1 class="hero-name">
+      Amina <br>
+      <em>Ishfaq</em>
+    </h1>
+
+    <p class="hero-desc">
+      Crafting thoughtful digital experiences where design meets code.
+      I build beautiful, functional interfaces that people love to use.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-ghost">Get In Touch →</a>
+    </div>
+
+    <div class="hero-number">01</div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <div class="section-label">About Me</div>
+
+    <div class="about-grid">
+
+      <div>
+        <h2 class="section-title reveal">
+          Designing with <em>purpose</em>, building with precision.
+        </h2>
+
+        <p class="about-text reveal">
+          I'm a frontend developer with a passion for creating clean,
+          accessible, and visually compelling web experiences.
+          With a background in both design and engineering,
+          I bridge the gap between aesthetics and functionality.
+        </p>
+
+        <p class="about-text reveal">
+          Currently pursuing my Computer Science degree while
+          working on real-world projects that challenge me to grow
+          technically and creatively.
+        </p>
+
+        <div class="skills-wrap reveal">
+          <span class="skill-tag">HTML & CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Git & GitHub</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="stats reveal">
+
+        <div class="stat">
+          <div class="stat-num">15+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Years of Experience</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Passion for Craft</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+
+    <div class="section-label">Selected Work</div>
+
+    <h2 class="section-title reveal">
+      Projects I'm proud of.
+    </h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card reveal">
+
+        <div class="project-img" data-icon="🖼">
+          Gallery
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-tag">
+            Frontend · HTML / CSS / JS
+          </div>
+
+          <h3 class="project-name">
+            Image Gallery
+          </h3>
+
+          <p class="project-desc">
+            Responsive masonry image gallery with category filters,
+            lightbox view, and smooth hover animations.
+          </p>
+
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal">
+
+        <div class="project-img" data-icon="🧮">
+          Calc
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-tag">
+            Frontend · JavaScript
+          </div>
+
+          <h3 class="project-name">
+            Scientific Calculator
+          </h3>
+
+          <p class="project-desc">
+            Full-featured calculator with keyboard support,
+            expression history, and slick UI.
+          </p>
+
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card reveal">
+
+        <div class="project-img" data-icon="🎵">
+          Music
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-tag">
+            Frontend · Web Audio API
+          </div>
+
+          <h3 class="project-name">
+            Music Player
+          </h3>
+
+          <p class="project-desc">
+            Immersive music player with playlist management,
+            waveform visualization, and custom controls.
+          </p>
+
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card reveal">
+
+        <div class="project-img" data-icon="🌐">
+          Web
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-tag">
+            Full Stack · React + Node
+          </div>
+
+          <h3 class="project-name">
+            Task Manager App
+          </h3>
+
+          <p class="project-desc">
+            Collaborative task management tool with drag-and-drop
+            and team workspace features.
+          </p>
+
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+
+    <div class="section-label">Get In Touch</div>
+
+    <h2 class="section-title">
+      Let's build something great together.
+    </h2>
+
+    <p class="contact-sub">
+      Open to internships, freelance projects, and full-time opportunities.
+    </p>
+
+    <a href="mailto:amina.ishfaq@email.com" class="contact-email">
+      amina.ishfaq@email.com
+    </a>
+
+    <div class="social-links">
+      <a href="#" class="social-link">GitHub</a>
+      <a href="#" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">Twitter</a>
+      <a href="#" class="social-link">Resume PDF</a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Amina Ishfaq
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
